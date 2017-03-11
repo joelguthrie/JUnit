@@ -37,7 +37,7 @@ public class CalculationTest extends TestCase{
         // check the sub method
         public void testSub() {
             int total = 0;
-            int sub = Calculation.sub(value1, value2);
+            int sub = Calculation.sub(2, 2);
             assertEquals(sub, total);
         }
     }
